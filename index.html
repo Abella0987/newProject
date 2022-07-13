@@ -1,301 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>E-commerce product page</title>
+
 </head>
 <body>
    
-    <header>
-        <h1>Moshe</h1>
-        <nav class="navbar">
-           <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li><a href="index2.html">Contact Us</a></li>
-           </ul> 
-        </nav>
-    </header>
+ <!-- header -->
+ <header>
+     
 
-    <main>
-        <!-- Main Section -->
-        <section class="main">
-            <div class="content">
-                <h2>Hello, I'm <br><span> Moshe</span></h2>
-                <div class="animated-text">
-                    <h3>Web Design</h3>
-                    <h3>Web Developer</h3>
-                    <h3>Content Writer</h3>
+    <!-- Toggle menu -->
+    <nav class="nav" >
+      <div class="nav__panel-container">
+          <div class="nav__panel">
+               <div class="closeMenu" id="closeMenu">
+                 <a href="#"><img src="/ecommerce-product-page-main/images/icon-close.svg"></a> 
+              </div>
+             
+              <ul class="nav__link-container">
+                  <li class="nav__link">
+                      <a href="#">Collections</a>
+                  </li>
+                  <li class="nav__link">
+                      <a href="#">Men</a>
+                  </li>
+                  <li class="nav__link">
+                      <a href="#">Women</a>
+                  </li>
+                  <li class="nav__link">
+                      <a href="#">About</a>
+                  </li>
+                  <li class="nav__link">
+                    <a href="#">Contact</a>
+                </li>
+              </ul>
+          </div>
+      </div>
+     
+    </nav>
+<!-- End Toggle Menu -->
+
+  <div class="container">
+   
+              <div class="madehead">
+                <div class="logo">
+                    <img src="/ecommerce-product-page-main/images/logo.svg">
                 </div>
-                <a href="" class="btn">Read more</a>
-                <div class="media-icons">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                    <a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </section>
+               
+                  <div class="nav-toggle" id="openMenu">
+                  <a href="#"><img id="hamburger" class="navIcon" src="/ecommerce-product-page-main/images/icon-menu.svg" 
+                    alt="Hamburger Menu"></a>  
+                  </div>
+              </div>
+              <nav class="navbar">
+                  <ul class="navbar-link">
+                      <li><a class="nav-link" href=""> Collections</a></li>
+                      <li><a class="nav-link" href="">Men</a></li>
+                      <li><a class="nav-link"  href="">Women</a></li>
+                      <li><a class="nav-link"  href=""> About</a></li>
+                      <li><a class="nav-link"  href=""> Contact</a></li>
+                  </ul>
+              </nav>
+                      <!-- sideImages -->
+                      <div class="image-list">
+                          <div class="sideImages">
+                            <a href="#"><img  class="cartIcon" src="/ecommerce-product-page-main/images/icon-cart.svg" 
+                            alt="Cart Image"></a>
+                          </div>
+                      </div>          
+                   
+                       <div class="sideImages">
+                       <a href="#"> <img  class="avatar" src="/ecommerce-product-page-main/images/image-avatar.png"
+                         alt="avatar Image"></a>
+                       </div>
+                       </div>
+                    <!-- end sideImages -->
+         
+  </div>         
+ </header> 
+ <!-- End header -->
 
-        <!-- About Section -->
-        <section class="about" id="about">
-            <div class="title reveal">
-                <h2 class="section-title">About Me</h2>
-            </div>
+  <!-- feature-path-text -->
+  <section class="section-container">
+      <!-- Lightbox -->
+      <section class="lightbox">
+        <div class="img-text">
+        <div class="product-hero">
+          <img  src="/ecommerce-product-page-main/images/image-product-1.jpg" alt="image product">
+        </div>
+        <div class="arrows">
+        <div class="previous arrow">
+              <img src="/ecommerce-product-page-main/images/icon-previous.svg" alt="icon previous">
+        </div>
+        <div class="next arrow">
+              <img src="/ecommerce-product-page-main/images/icon-next.svg" alt="icon next">
+         </div>
+              
+        </div>
+      </div>
+          <div class="thumb-gallery">
+              <div class="pic active">
+                  <img src="/ecommerce-product-page-main/images/image-product-1-thumbnail.jpg" alt="thumb-1">
+              </div>
+              <div class="pic">
+                  <img src="/ecommerce-product-page-main/images/image-product-2-thumbnail.jpg" alt="thumb-2">
+              </div>
+              <div class="pic">
+                  <img src="/ecommerce-product-page-main/images/image-product-3-thumbnail.jpg" alt="thumb-3">
+              </div>
+              <div class="pic">
+                  <img src="/ecommerce-product-page-main/images/image-product-4-thumbnail.jpg" alt="thumb-4">
+              </div>
+          </div>
+    
+     <!-- text -section -->
+        <section class="Feature-1-2">
+            <div class="feature-path-text">
+                        <p class="f-path-text-p">
+                          SNEAKER COMPANY
+                        </p>
+                      <h1 class="f-path-bold">Fall Limited Edition <br>Sneakers</h1>
+                      <p class="f-path-text-p2">
+                      These low-profile sneakers are your perfect casual wear companion.Feature a 
+                      durable rubber outer sole, they'll withstand everything the weather can offer.
+                      </p>
+                   
+                  </div>
+              
+       
+   <!-- add to cart -->
+   <div class="product">
+    <div class="product__content grid gap-sizer-1">
+     <div class="product__price flex">
+      <div class="product__price--actual flex gap-sizer-1">
+       <h2 class="font-bold fs-4">$125.00</h2>
+       <p class="accent bg-accent-pale font-bold fs-2 price--discount">50%</p>
+      </div>
+      <p class="alt-bkg2 price--original font-bold fs-2">$250.00</p>
+     </div>
+     <div class="check-add">
+     <section class="checkout flex gap-sizer-1">
+     <div class="checkout__amt flex">
+      <div class="checkout__amtBtn rounded flex bg-alt-bkg3">
+      <button id="amt--decrease" class="amt grid" aria-label="Decrease quantity"><svg width="12" height="4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+       <defs>
+        <path
+         d="M11.357 3.332A.641.641 0 0 0 12 2.69V.643A.641.641 0 0 0 11.357 0H.643A.641.641 0 0 0 0 .643v2.046c0 .357.287.643.643.643h10.714Z"
+         id="a" />
+       </defs>
+       <use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#a" />
+      </svg></button>
+      <span id="qty" class="font-bold fs-9" aria-label="Current quantity">0</span>
+      <button id="amt--increase" class="amt grid" aria-label="Increase quantity"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+       <defs>
+        <path
+         d="M12 7.023V4.977a.641.641 0 0 0-.643-.643h-3.69V.643A.641.641 0 0 0 7.022 0H4.977a.641.641 0 0 0-.643.643v3.69H.643A.641.641 0 0 0 0 4.978v2.046c0 .356.287.643.643.643h3.69v3.691c0 .356.288.643.644.643h2.046a.641.641 0 0 0 .643-.643v-3.69h3.691A.641.641 0 0 0 12 7.022Z"
+         id="b" />
+       </defs>
+       <use fill="#FF7E1B" fill-rule="nonzero" xlink:href="#b" />
+      </svg></button>
+     </div>
+    </div>
+  </div>
+    
+       <button id="checkout" class="accent-pale checkout__btn flex bg-accent rounded flex gap-sizer-1">
+         <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+         <path
+          d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+          fill="currentColor" fill-rule="nonzero" />
+        </svg>
+        <p class="fs-7 font-bold">Add to cart</p>
+       </button>
+      </div>
+    </section>
+    </section>
+  </section>
+                  
 
-            <div class="content">
-                <div class="column col-left reveal">
-                    <div class="img-card">
-                        <img src="images/web3.jpg" alt="Altanative Image">
-                    </div>
-                </div>
 
-                <div class="column col-right reveal">
-                    <h2 class="content-title">Hey There! I'm Moshe</h2>
-                    <p class="para-text">Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Vero, tempora non. 
-                        Perferendis deserunt distinctio, 
-                        deleniti iste nulla eligendi similique 
-                        quo ipsa ut odio facere culpa, assumenda 
-                        consequatur. Ipsa, est dicta. 
-                        Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Quae labore autem ducimus. 
-                        Dolore dolorem, quidem eligendi nisi
-                        quisquam odio molestiae?
-                    </p>
-                    <a href="" class="btn">See More</a>
-                </div>
-            </div>
-        </section>
+  <!-- feature-path-text end -->
+  
+  <!-- $125.00
+  50%
+  $250.00
+  0
+  Add to cart -->
 
-        <!-- Skills Section -->
-        <section class="skills" id="skills">
-            <div class="title reveal">
-                <h2 class="section-title">My Skills</h2>
-            </div>
-
-            <div class="content">
-                <div class="column col-left reveal">
-                    <h2 class="content-title">My Skills and Experience</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Nisi placeat, corporis 
-                        excepturi ipsa illum sed cumque quis? 
-                        Hic iusto delectus, alias unde deserunt 
-                        vitae molestias consectetur, dolorem 
-                        culpa et saepe.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ea!
-                    </p>
-                    <a href="" class="btn">Read More</a>
-                </div>
-
-                <div class="column col-right reveal">
-                    <div class="bar">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-
-                    <div class="bar">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-
-                    <div class="bar">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line javascript"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section class="services" id="services">
-            <div class="title reveal">
-                <h2 class="section-title">My Services</h2>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. In provident praesentium
-                     ab optio ratione ad sapiente commodi ut 
-                     maxime ullam numquam magni, voluptatum sed 
-                     vero magnam, unde totam perferendis a?
-                </p>
-            </div>
-
-            <div class="content">
-
-                <div class="card reveal">
-                    <div class="service-icon">
-                        <i class="fa fa-globe" aria-hidden="true"></i>
-                    </div>
-                    <div class="info">
-                        <h3>Web Design</h3>
-                        <p>Lorem, ipsum dolor sit amet 
-                            consectetur adipisicing elit. 
-                            Quod unde sequi earum facere voluptatum 
-                            possimus id accusantium ex excepturi tempora 
-                            facilis asperiores, at dicta a sunt temporibus. 
-                            Commodi, eaque omnis.</p>
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="service-icon">
-                        <i class="fa fa-file" aria-hidden="true"></i>
-                    </div>
-                    <div class="info">
-                        <h3>UI/UX</h3>
-                        <p>Lorem, ipsum dolor sit amet 
-                            consectetur adipisicing elit. 
-                            Quod unde sequi earum facere voluptatum 
-                            possimus id accusantium ex excepturi tempora 
-                            facilis asperiores, at dicta a sunt temporibus. 
-                            Commodi, eaque omnis.</p>
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="service-icon">
-                        <i class="fa fa-object-group" aria-hidden="true"></i>
-                    </div>
-                    <div class="info">
-                        <h3>SEO</h3>
-                        <p>Lorem, ipsum dolor sit amet 
-                            consectetur adipisicing elit. 
-                            Quod unde sequi earum facere voluptatum 
-                            possimus id accusantium ex excepturi tempora 
-                            facilis asperiores, at dicta a sunt temporibus. 
-                            Commodi, eaque omnis.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="project" id="project">
-            <div class="title reveal">
-                <h2 class="section-title">My Projects</h2>
-            </div>
-
-            <div class="content">
-                <div class="card reveal">
-                    <div class="card-img">
-                        <img src="images/app3.jpg" alt="Project 1">
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="card-img">
-                        <img src="images/app3.jpg" alt="Project 2">
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="card-img">
-                        <img src="images/app3.jpg" alt="Project 3">
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="card-img">
-                        <img src="images/app3.jpg" alt="Project 4">
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="card-img">
-                        <img src="images/app3.jpg" alt="Project 5">
-                    </div>
-                </div>
-
-                <div class="card reveal">
-                    <div class="card-img">
-                        <img src="images/app3.jpg" alt="Project 6">
-                    </div>
-                </div>
-                <div class="title reveal">
-                    <a href="" class="btn">See all</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <div class="title reveal">
-                <h2 class="section-title">Contact Me</h2>
-            </div>
-
-            <div class="content">
-
-                <div class="row">
-                    <div class="card reveal">
-                        <div class="contact-icon">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </div>
-                        <div class="info">
-                            <h3>Address</h3>
-                            <span>Address, City, Country</span>
-                        </div>
-                    </div>
-
-                    <div class="card reveal">
-                        <div class="contact-icon">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                        </div>
-                        <div class="info">
-                            <h3>Phone</h3>
-                            <span>+234 8062084708</span>
-                        </div>
-                    </div>
-                    
-                    <div class="card reveal">
-                        <div class="contact-icon">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                        </div>
-                        <div class="info">
-                            <h3>Email</h3>
-                            <span>nnadoziemoshe@gmail.com</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="contact-form reveal">
-                        <h3>Send Message</h3>
-                        <form action="">
-                            <div class="input-box">
-                                <input type="text" name="" value="" placeholder="Name">
-                            </div>
-                            <div class="input-box">
-                                <input type="text" name="" value="" placeholder="Email">
-                            </div>
-                            <div class="input-box">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
-                            </div>
-                            <div class="input-box">
-                                <input type="submit" class="send-btn" name="" value="Send"/>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <span class="footer-title">MOSHE CHIMA</span>
-        <p>Copyright @2022 <a href="#">MOSHE38</a>. All Rights Reserved.</p>
-    </footer>
+  
 </body>
+<script src="app.js" module="style"></script>
 </html>
